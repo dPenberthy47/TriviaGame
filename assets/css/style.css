@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Liverpool FC";
+    src: url(/assets/font/albertus_mt1.ttf);
+}
+
+body {
+    background-image: url("http://szzljy.com/data/12/wallpapers/184/1346726.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Liverpool FC";
+}
+
+h1 {
+    color: #E0202C;
+}
+
+myContainer h1 {
+    padding: 2px 0;
+}
+
+.navbar {
+    background: radial-gradient(white, #FEF667, black);
+    border-radius: 100px;
+    text-align: center;
+}
+
+.myContainer {
+    background: whitesmoke;
+    border: #E0202C 5px solid;
+    margin-top: 50px;
+    height: 400px;
+    text-align: center;
+}
+
+.btn-secondary {
+    margin-top: 75px;
+    padding: 50px 100px;
+    background-color: #19A78E;
+}
+
+.btn-secondary:hover {
+    background-color:#E0202C;
+    color: #FEF667;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+#question {
+    font-size: 30px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+ #btn0, #btn1, #btn2, #btn3 {
+    background-color: #19A78E;
+    color: white;
+    width: 250px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0;
+    padding: 10px 10px;
+}
+
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    background-color:#E0202C;
+    color: #FEF667;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#btn0:active, #btn1:active, #btn2:active, #btn3:active {
+    background-color:purple;
+    color: salmon;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    background-color:purple;
+    color: salmon;
+    outline: 0;
+}
+
+#progress {
+    color: black;
+    font-size: 18px;
+}

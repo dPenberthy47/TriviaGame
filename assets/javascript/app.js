@@ -20,7 +20,7 @@ function populate() {
 
 function guess(id, guess) {
     var button = document.getElementById(id);
-    button.onClick = function() {
+    button.onclick = function() {
         quiz.guess(guess);
         populate();
     }

@@ -37,8 +37,32 @@ function showProgress() {
 function showScores() {
     var gameOverHTML = "<h1>Result</h1>";
     gameOverHTML += "<h2 id='score'> Your scores: " + quiz.score + "</h2>";
+
+    if (quiz.score > 0 && quiz.score < 6) {
+        gameOverHTML += "<img src='https://media.giphy.com/media/l3vR1tPS6ZMyxKRq0/giphy.gif'/>";
+        /* var benWoodburn = document.getElementById("img");
+        benWoodburn.innerHTML = img; */
+    } else if (quiz.score > 4 && quiz.score < 11) {
+        gameOverHTML += "<img src='https://media.giphy.com/media/3o7qDYnQOKtC0zNuRa/giphy.gif'/>";
+        /*var bobbyFirmino = document.getElementById("img");
+        bobbyFirmino.innerHTML = img; */
+    } else if (quiz.score > 9 && quiz.score < 16) {
+        gameOverHTML += "<img src='https://media.giphy.com/media/1UUa9X1s4R4XhweIGP/giphy.gif'/>";
+       /* var moSalah = document.getElementById("img");
+        moSalah.innerHTML = img; */
+    } else if (quiz.score > 14 && quiz.score < 20) {
+        gameOverHTML += "<img src='https://media.giphy.com/media/xUA7b2uqotaDunMxaw/giphy.gif'/>";
+        /* var kloop = document.getElementById("img");
+        kloop.innerHTML = img; */
+    } else if (quiz.score === 20) {
+        gameOverHTML += "<img src='https://media.giphy.com/media/l0Iy294JIZv3s2FEs/giphy.gif'/>";
+        /* var gerrardUCL = document.getElementById("img");
+        gerrardUCL.innerHTML = img; */
+    } 
+
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHTML;
+    
 };
 
 var questions = [

@@ -61,7 +61,7 @@ function showScores() {
 };
 
 var questions = [
-    new Question("What is the name of Liverpool's stadium?", ["Stamford Bridge", "Emerites Stadium", "Anfield", "Camp Nou"], "Anfield"),
+    new Question("What is the name of Liverpool's stadium?", ["Stamford Bridge", "Emirates Stadium", "Anfield", "Camp Nou"], "Anfield"),
     new Question("How many times have Liverpool won the UEFA Champions League?", ["2", "5", "7", "1"], "5"),
     new Question("Which club is Liverpool's biggest rival?", ["Manchester United", "Chelsea", "Manchester City", "Arsenal"], "Manchester United"),
     new Question("How many times have Liverpool been champions of England?", ["10", "5", "14", "18"], "18"),

@@ -1,3 +1,21 @@
+
+ function countdown(seconds, elem) {
+    var element = document.getElementById(elem);
+    element.innerHTML = seconds + " seconds left";
+
+    if (seconds < 1) {
+
+        clearTimeout(timer);
+        showScores();
+    }
+
+    seconds--;
+    var element = setTimeout('countdown('+seconds+',"'+elem+'")', 1000);
+
+ }
+
+  countdown( 90, "timer")
+
 function populate() {
     if(quiz.isEnded()) {
         showScores();
